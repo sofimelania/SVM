@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-color: #86E5FF ;
+    }
+    #myVideo{
+    width: 100%;
+    }
+    .heading{
+    display: flex;
+    justify-content: center;
+    color: #0081C9 ;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .heading:hover{
+    color:#6C00FF;
+    }
+    .top{
+    display: flex;
+    justify-content: center;
+    color: #939B62 ;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .top:hover{
+    color: #3C79F5;
+    }
+    .about{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #939B62;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .about:hover{
+    color:#3C79F5; ;
+    }
+    .man{
+    display: flex;
+    justify-self: start;
+    }
+    .list{
+    color: #243763;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .business{
+    display: flex;
+    justify-content:center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #939B62;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .business:hover{
+    color: #3C79F5;
+    }
+    .problems{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .call{
+    display: flex;
+    }
+    .btn{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #EB6440;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 150px;
+    }
+    .phone{
+    align-self: center;
+    }
+    .cta{
+    display: flex;
+    justify-content: center;
+    }
+    .number{
+    background-color: #009EFF;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding:20px;
+    font-size: 25px;
+    cursor: help ;
+    flex: 0,7;
+    }
+    .number:hover{
+    color:#00FFF6;
+    }
+    @media all and (max-width:800px) {
+    body{
+    background-color: #C0EEE4;
+    }
+    img{
+    width: auto;
+    }
+    .btn, .heading, .man,  .problems{
+    flex-direction: column;
+    }
+    }
+    @media all and (max-width:500px) {
+    body{
+    background-color: #46C2CB;
+    }
+    }
